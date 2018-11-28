@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success {
+    opacity: 0;
+}
+
+.success.active {
+    opacity: 1;
+}
+
+.form-control.disabled,
+.submit.disabled {
+    opacity: 0.5;
+    cursor: none;
+    pointer-events: none; 
+}
